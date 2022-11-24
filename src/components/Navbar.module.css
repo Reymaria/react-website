@@ -1,0 +1,12 @@
+.container {
+    margin: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .navbarButtons {
+    display: flex;
+    gap: 36px;
+  }

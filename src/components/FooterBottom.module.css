@@ -1,0 +1,13 @@
+body{
+    min-height: 100vh;
+}
+.container{
+    margin-bottom: -50px;
+    background-color: blue;
+    color: white;
+}
+
+.sticky{
+    position: sticky;
+    top: 100%;
+}

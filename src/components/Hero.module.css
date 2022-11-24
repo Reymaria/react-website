@@ -1,0 +1,33 @@
+
+.container {
+    margin: 0;
+    height: 100vh;
+    /* overflow: hidden; */
+    color: white;
+    /* background-image: url("../img/bg2.svg"); */
+    background-color: #001220;
+    padding: 36px 36px 80px 36px;
+    display: flex;
+  }
+
+  .image {
+    width: 100%;
+  }
+  
+  .image > img {
+    margin: auto;
+    display: block;
+    margin-top: 60px;
+    width: 440px;
+    height: 400px;
+  }
+
+  .container > h1 {
+    margin: 40px;
+    font-size: 96px;
+    line-height: 1;
+    margin-bottom: 0;
+    max-width: 700px;
+  }
+  
+
