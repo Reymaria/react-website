@@ -7,7 +7,7 @@
     border: 1px solid #F67280;
     cursor: pointer;
     border-radius: 50px;
-    
+    width: 100%;
   }
   
   .primary:hover {
@@ -21,6 +21,7 @@
     color: white;
     font-size: 24px;
     cursor: pointer;
+    width: 100%;
   }
   
   .secondary:hover {

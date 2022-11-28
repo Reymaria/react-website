@@ -1,0 +1,43 @@
+.container {
+    margin: 0;
+    height: 90vh;
+    /* overflow: hidden; */
+    color: black;
+    /* background-image: url("../img/bg2.svg"); */
+    /* background-color: #001220; */
+    background-color: white;
+    padding: 36px 60px 80px 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+
+  h2 {
+    font-size: 72px;
+    /* text-align: right; */
+    line-height: 1;
+  } 
+
+  .image {
+    /* width: 100%; */
+    position: absolute;
+    left: 60px;
+  }
+  
+  .image > img {
+    margin: auto;
+    /* display: block; */
+    margin-top: 60px;
+    width: 440px;
+    height: 400px;
+    float: left;
+  }
+
+  .flavorText {
+    width: 80%;
+    margin-bottom: 15%;
+    position: relative;
+    text-align: right;
+  }

@@ -1,7 +1,7 @@
 
-// import FooterBottom from "./components/FooterBottom";
+import FooterBottom from "./components/FooterBottom";
 
-
+import Untitled from "./components/UntitledComponent";
 
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -12,7 +12,8 @@ const LPage = () => {
             
             <Navbar/>
             <Hero/>
-        {/* <FooterBottom/> */}
+            <Untitled/>
+            <FooterBottom/>
         </div>
         
     );

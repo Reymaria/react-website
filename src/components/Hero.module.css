@@ -1,33 +1,39 @@
 
 .container {
     margin: 0;
-    height: 100vh;
+    height: 80vh;
     /* overflow: hidden; */
     color: white;
     /* background-image: url("../img/bg2.svg"); */
     background-color: #001220;
-    padding: 36px 36px 80px 36px;
+    padding: 36px 60px 80px 60px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .image {
-    width: 100%;
+    flex: 0;
   }
   
   .image > img {
     margin: auto;
     display: block;
-    margin-top: 60px;
-    width: 440px;
+    /* margin-top: 60px; */
+    width: 400px;
     height: 400px;
   }
 
-  .container > h1 {
+  .container h1 {
     margin: 40px;
-    font-size: 96px;
+    /* font-size: 96px; */
+    font-size: 5em;
     line-height: 1;
-    margin-bottom: 0;
+    margin-bottom: 40px;
     max-width: 700px;
   }
   
 
+.flavor {
+  flex: 0 1 50%;
+}
