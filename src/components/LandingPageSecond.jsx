@@ -1,6 +1,6 @@
-import styles from "./UntitledComponent.module.css";
+import styles from "./LandingPageSecond.module.css";
 
-const Untitled = () => {
+const LandingPageSecond = () => {
   return (
     <div className={styles.container}>
       <div className={styles.image}>
@@ -17,4 +17,4 @@ const Untitled = () => {
   )
 }
 
-export default Untitled;
+export default LandingPageSecond;
