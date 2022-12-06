@@ -26,8 +26,8 @@ const SignInPages = () => {
         
         Swalert.fire({
             title: "Successfully signed in.",
-            text: "(zero functionality behind this form)"
-        })
+            text: "Student ID: " + String(studentId)
+        });
     }
 
     return(

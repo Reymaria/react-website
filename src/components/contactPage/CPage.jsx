@@ -8,7 +8,7 @@ import {HiOutlineMail, HiLocationMarker} from 'react-icons/hi';
 import {BsFillTelephoneFill} from 'react-icons/bs';
 
 
-const Swalert = withReactContent(Swal)
+const Swalert = withReactContent(Swal);
 
 
 const CPage = () => {
@@ -26,8 +26,13 @@ const CPage = () => {
         const msg = msgRef.current.value;
         
         Swalert.fire({
-            title: "WRYYYYYYYYYYYYYYYYYY\n",
-            text: `${fn}<br/>${ea}<br/>${sub}<br/>${msg}`
+            title: "Sent!",
+            html: (<>
+                <p>Full name: {fn}</p>
+                <p>Email address: {ea}</p>
+                <p>Subject: {sub}</p>
+                <p>Message: {msg}</p>
+            </>)
         })
     }
 

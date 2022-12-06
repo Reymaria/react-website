@@ -30,8 +30,12 @@ const SignUpPages = () => {
         const repass1 = repass1Ref.current.value;
         
         Swalert.fire({
-            title: "*insert Sign Up magic here*",
-            text: "nothing happening under the hood"
+            title: "Successfully signed up.",
+            html: (<>
+                <p>Full name: {`${firstName} ${lastName}`}</p>
+                <p>Student ID: {studentId}</p>
+                <p>Email: {email}</p>
+            </>)
         })
     }
 
