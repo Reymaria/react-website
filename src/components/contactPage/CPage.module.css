@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=IM+Fell+English&family=Roboto+Slab&display=swap');
+
+.Ccontainer {
+    margin: -1%;
+    overflow: hidden;
+    /* background: linear-gradient(
+        to top,
+        white 0%,
+        white 50%
+        #001220 50%,
+        #001220 100%,
+    ); */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.contactContainer{
+    margin: -0.5%;
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+        to top,
+        white 0%,
+        white 40%,
+        #001220 40%,
+        #001220 100%
+    );
+}
+.OpenTag{
+    font-family: 'Cutive Mono';
+    color: white;
+    margin: 2%;
+    font-size: 1.8rem;
+}
+
+.contactBoxContainer{
+    width: 68%;
+    /* left: 310px;
+    top: 253px; */
+    height: 73vh;
+    box-shadow: -4px 10px 20px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    justify-items: left;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.formContainer{
+    padding-left: 2rem;
+    /* padding-right: 2rem; */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 1rem;
+    margin-right: 3rem;
+    width: 70%;
+    font-family: 'IM FELL English';
+
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+.formLabels{
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    color: #001220;
+
+}
+
+.coninput{
+    background: #FFFFFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000000 !important;
+    border-radius: 10px;
+    outline: none;
+    height: 2rem;
+    font-family: 'Cutive Mono';
+    font-size: 17px;
+    font-weight: bold;
+}
+/* .coninput:focus{
+    outline: none;
+} */
+.coninput:hover {
+    box-shadow: 2px 2px 1px 1px #35477d9f;
+}
+
+
+.coninput:focus{
+    /* transition: 2ms ease-in; */
+    /* border-bottom: 10px solid #001220 !important;; */
+    box-shadow: 2px 2px 1px 1px #35477d9f;
+}
+.cinputs{
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 10px;
+    outline: none;
+    height: 7rem;
+    font-family: 'Cutive Mono';
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.cinputs:hover {
+    box-shadow: 2px 2px 1px 1px #35477d9f;
+}
+
+.cinputs:focus {
+    box-shadow: 2px 2px 1px 1px #35477d9f;
+}
+.submitbutton{
+    font-family: 'Cutive Mono';
+    background: #F67280;
+    border-radius: 10px;
+    width: 5.80rem;
+    height: 2rem;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 38px;
+    cursor: pointer;
+    font-size: 17px ;
+}
+
+.submitbutton:hover{
+    color: #F67280;
+    background: #000000;
+    box-shadow: 2px 2px 1px 1px #F67280;
+}
+
+.formContactDetails{
+    background: #35477D;
+    border-radius: 16px;
+    height: inherit;
+    padding-left: 30px;
+    padding-right: 6px;
+    display: flex;
+    flex-direction: column;
+    align-content: right;
+    justify-content: center;
+    color: white;
+}
+
+.MainDetail{
+    font-family: 'IM FELL English';
+    font-weight: 400px;
+    font-size: 1.5rem;
+}
+
+.subDetails{
+    font-family: 'Cutive Mono';
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.subdetailContainer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    gap: 15px;
+    align-items: center;
+}
