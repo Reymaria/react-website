@@ -44,18 +44,30 @@ h1{
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 44px;
-    color: #F67280;
-    background: #FFEDED;
+    color: #F67280 !important;
+    background: #FFEDED !important;
     border-radius: 50px;
     cursor: pointer;
 }
 
 .button1:hover{
     transition: 50ms ease-in-out;
-    color: black;
-    background-color: #F67280;
+    color: black !important;
+    background-color: #F67280 !important;
     font-weight: bolder;
 }
+
+.button1Text{
+    text-decoration: none;
+    color: #F67280 !important;
+}
+
+.button1Text:hover{
+    text-decoration: none;
+    color: black !important;
+    background-color: #F67280 !important;
+}
+
 .heroContainerRight{
     height: auto;
     align-items: center;

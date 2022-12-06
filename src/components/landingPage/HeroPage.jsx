@@ -12,7 +12,7 @@ const HeroPage = () => {
                 <div className={styles.heroContainerLeft}>
                     <h1>Technological University of the Philippines Library System</h1>
                     <button className={styles.button1} >
-                        <Link to = "/signup">Get Started</Link>  
+                        <Link to = "/signup" className={styles.button1Text}>Get Started</Link>  
                         </button>
                 </div>
                 <div className={styles.heroContainerRight}>

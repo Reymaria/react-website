@@ -1,8 +1,7 @@
 import React from "react";
-
 import Swal from 'sweetalert2';
+// import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
-
 import styles from "./signInPage.module.css";
 import LogoPicBlue from "../img/Logo.png";
 import SUIPic from "../img/SUIPicture.png";
