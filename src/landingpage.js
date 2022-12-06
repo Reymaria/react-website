@@ -1,19 +1,19 @@
+import FooterBottom1 from "./components/landingPage/FooterBottom1";
+import HeroPage from "./components/landingPage/HeroPage";
+import NavigationBar from "./components/landingPage/NavigationBar";
+import Part2 from "./components/landingPage/Part2";
 
-import FooterBottom from "./components/FooterBottom";
 
-import LandingPageSecond from "./components/LandingPageSecond";
-
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-// import background from "./img/bg1.svg"
 const LPage = () => {
     return (
         <div>
-            
-            <Navbar/>
-            <Hero/>
-            <LandingPageSecond/>
-            <FooterBottom/>
+            <NavigationBar/>
+            <HeroPage/>
+            <Part2/>
+            <FooterBottom1/>
+            {/* <Hero/> */}
+            {/* <LandingPageSecond/>
+            <FooterBottom/> */}
         </div>
         
     );

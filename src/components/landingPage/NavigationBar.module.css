@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=IM+Fell+English&family=Roboto+Slab&display=swap');
+.container {
+    margin: -1%;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Cutive Mono', monospace;
+    background-color: #001220;
+}
+
+.navcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+img{
+    width: 10rem;
+}
+
+.navbarButtons{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.navbarButtons a{
+    background-color: #001220;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+
+.navbarButtons a:hover{
+    color:#FFA5A5 ;
+    transition: 5ms ease-in;
+
+}
+
+button{
+    border: none;
+    background-color: #001220;
+}
+
+.hamburgerIcon{
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+/* Large Screen Width */
+@media screen and (min-width: 1367px) and (max-width: 1920px){
+    .navcontainer{
+        margin-left: 5.25rem;
+        margin-right: 5.25rem;
+        margin-top: 2.25rem;
+        margin-bottom: 2.25rem;
+        
+    }
+    img{
+        width: 17rem;
+    }
+
+    .navbarButtons a{
+        font-size: 2.25rem;
+    }
+}
+
+/* Small Screen Width */
+@media screen and (min-width: 961px) and (max-width: 1366px){
+    .navcontainer{
+        margin-left: 5.27rem;
+        margin-right: 5.27rem;
+        margin-top: 1.73rem;
+        margin-bottom: 1.73rem;
+        
+    }
+    img{
+        width: 12rem;
+    }
+}
+
+/* Large Mobile Phone Width */
+@media screen and (min-width: 361px) and (max-width: 480px){
+    .navcontainer{
+        margin-left: 5.10rem;
+        margin-right: 5.25rem;
+        margin-top: 2.75rem;
+        margin-bottom: 2.75rem;
+        width: 100%;
+        justify-content: space-between;
+        align-content: center;
+        gap: 2rem;
+    }
+    img{
+        width: 10rem;
+    }
+    a {
+        display: none;
+    }
+
+
+    
+    .hamburgerIcon{
+        display: flex;
+        visibility: visible!important;
+        margin-right: 8.25rem;
+        font-size: 2.25rem;
+    }
+}
+
+/* Small Mobile Phone */
+@media screen and (min-width: 200px) and (max-width: 360px){
+
+    .navcontainer{
+        margin-left: 3.25rem;
+        margin-right: 3.25rem;
+        margin-top: 2.75rem;
+        margin-bottom: 2.75rem;
+        width: 100%;
+        justify-content: space-between;
+        align-content: center;
+        
+    }
+    img{
+        width: 10rem;
+    }
+    a {
+        display: none;
+    }
+
+
+    
+    .hamburgerIcon{
+        display: flex;
+        visibility: visible!important;
+        margin-right: 6.25rem;
+        font-size: 2.25rem;
+    }
+}
+/* Tablet Size Width */
+@media screen and (min-width: 481px) and (max-width: 960px){
+    .container{
+        overflow: hidden;
+    }
+    .navcontainer{
+        margin-left: 5.25rem;
+        margin-right: 5.25rem;
+        margin-top: 2.75rem;
+        margin-bottom: 2.75rem;
+        width: 100%;
+        justify-content: space-between;
+        align-content: center;
+        
+    }
+    img{
+        width: 14rem;
+    }
+    a {
+        display: none;
+    }
+    .hamburgerIcon{
+        display: flex;
+        visibility: visible!important;
+        margin-right: 10rem;
+        font-size: 2.75rem;
+    }
+}

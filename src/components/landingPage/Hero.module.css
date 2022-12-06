@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=IM+Fell+English&family=Roboto+Slab&display=swap');
+.container {
+    margin: -10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.heroContainer{
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-top: 8.80em;
+    padding-bottom: 1.5em;
+    height: 20.5rem;
+}
+.heroContainerUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5rem;
+
+}
+.heroContainerLeft{
+    justify-items: center;
+}
+
+.heroContainerRight{
+    width: 100%;
+}
+h1{
+    font-size: 10.5vh;
+    width: 65rem; /*Need to change this for @media*/
+    height: 20rem; /*Need to change this for @media*/
+    font-family: 'Cutive Mono';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px;
+    color: #FFFFFF;
+}
+button{
+    margin-top: 15px;
+    width: 85%;
+    height: 5.80rem;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    color: #F67280;
+    align-content: center;
+    background-color: #FFEDED;
+    border: 2px solid #F67280;
+    border-radius: 50px;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.heroWave{
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    top: -270vh;
+    /* display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: -200px;
+    vertical-align: middle; 
+    overflow: hidden;  */
+}
+
+
+/* Large Screen Width */
+@media screen and (min-width: 1367px) and (max-width: 1920px){
+    h1{
+        font-size: 5.15rem;
+        width: 54rem; /*Need to change this for @media*/
+        height: 20rem; /*Need to change this for @media*/
+        line-height: 0.95em;
+    }
+    .heroContainerUp{
+        gap: 20px;
+        top: -10rem;
+    }
+    /* .heroContainerLeft{
+        position: relative;
+        top: 9vh;
+        left: -7vh;
+        background-color: black;
+    } */
+    .tupLogoPic {
+        width: 50%;
+    }
+    .heroWave{
+        top: -10px;
+        vertical-align: middle; 
+        overflow: hidden; 
+    }
+
+}
+
+
+/* Small Screen Width */
+@media screen and (min-width: 961px) and (max-width: 1366px){
+    .heroContainer{
+        height: 100%;
+    }
+    .heroContainerUp{
+        gap: 20px;
+        top: -10rem;
+        display: flex;
+        align-items: center!important;
+        justify-content: space-between!important;
+        
+    }
+
+    .heroContainerLeft{
+        position: relative;
+        top: 9vh;
+        left: 3vh;
+        width: 75%;
+    }
+    h1{
+        font-size: 10vh;
+        width: 97.5%;
+        line-height: 0.85em;
+        color: #FFFFFF;
+    }
+    .tupLogoPic{
+        width: 50%;
+    }
+    button{
+        display: block;
+        box-sizing: border-box;
+        margin-top: -10%;
+        font-size: 30px;
+        width: 85%;
+        height: 4.80rem;
+    }
+
+}

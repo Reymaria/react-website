@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=IM+Fell+English&family=Roboto+Slab&display=swap');
+
+.container1 {
+    margin: -1%;
+    overflow: hidden;
+    font-family: 'Cutive Mono', monospace;
+    background-color: #001220;
+}
+.heroContainer{
+    height: 100%;
+    width: fit-content;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+}
+
+.heroContainerUp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5%;
+}
+
+.heroContainerLeft{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-weight: 400;
+    font-size: 4.75rem;
+    line-height: 4rem;
+    width: 87%;
+    margin-bottom: 1%;
+}
+
+.button1{
+    width: 55%;
+    height: 15%;
+    font-family: 'Cutive Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 44px;
+    color: #F67280;
+    background: #FFEDED;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button1:hover{
+    transition: 50ms ease-in-out;
+    color: black;
+    background-color: #F67280;
+    font-weight: bolder;
+}
+.heroContainerRight{
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.tupLogoPic{
+    width: 18rem;
+}
+
+.heroWave{
+    overflow: hidden;
+    width: 99.7%;
+    height: 5%;
+    margin-top: 1%;
+}
+
+
+/* @media will be next! */
