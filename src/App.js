@@ -5,12 +5,13 @@ import './App.css';
 
 import LPage from './pages/landingpage';
 import CPage from './pages/contactpage';
+import AUPage from './aboutUsPages';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LPage/>} />
+        <Route path="/" element={<AUPage/>} />
         <Route path="/contact" element={<CPage/>} />
       </Routes>
     </BrowserRouter>

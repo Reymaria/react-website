@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=IM+Fell+English&family=Roboto+Slab&display=swap');
+
+.acontainer {
+    overflow: hidden;
+    min-height: 100vh;
+    background-color: #001220;
+
+}
+.aboutcontainer{
+    width: 100%;
+    padding-top: 0;
+    height: 100vh;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.aboutbox{
+    color: white;
+    margin-right: 24vh;
+    margin-left: 24vh;
+    height: 75vh;
+    /* background-color: tomato; */
+}
+
+.whoContainer{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    padding: 20px;
+
+}
+.whatContainer{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    padding: 20px;
+}
