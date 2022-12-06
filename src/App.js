@@ -4,15 +4,21 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import LPage from './pages/landingpage';
-import CPage from './pages/contactpage';
-import AUPage from './aboutUsPages';
+import ContactPages from './pages/contactpage';
+import SUPage from './pages/signUpPage';
+import SIPage from './pages/signInPage';
+import AUPage from './pages/aboutUsPages';
+
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<AUPage/>} />
-        <Route path="/contact" element={<CPage/>} />
+        <Route path="/" element={<LPage/>} />
+        <Route path="/about" element={<AUPage/>} />
+        <Route path="/contact" element={<ContactPages/>} />
+        <Route path="/signup" element={<SUPage/>} />
+        <Route path="/signin" element={<SIPage/>} />
       </Routes>
     </BrowserRouter>
   );

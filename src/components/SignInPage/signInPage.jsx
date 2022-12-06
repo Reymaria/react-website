@@ -2,18 +2,21 @@ import React from "react";
 import styles from "./signInPage.module.css";
 import LogoPicBlue from "../img/Logo.png";
 import SUIPic from "../img/SUIPicture.png";
-const SignInPage = () => {
+import { Link } from 'react-router-dom';
+
+
+const SignInPages = () => {
     return(
-        <div className={styles.SUcontainer}>
+        <div className={styles.SUcontainer}> 
             <div className={styles.signInContainer}>
                 <div className={styles.sideImage}>
                     <img src={SUIPic} alt="" className={styles.sidePicImage} />
                 </div>
                 <div className={styles.rightSideElements}>
                     <div className={styles.rightSideNavbar}>
-                        <a href="/" className={styles.sideNavbar}>Home</a>
-                        <a href="/" className={styles.sideNavbar}>About</a>
-                        <a href="/" className={styles.sideNavbar}>Contact Us</a>
+                        <Link to="/" className={styles.sideNavbar}>Home</Link>
+                        <Link to="/about" className={styles.sideNavbar}>About</Link>
+                        <Link to="/contact" className={styles.sideNavbar}>Contact Us</Link>
                         {/* <button className={styles.buttonNavigationSide}>
                             <a href="/">Home</a>
                         </button> */}
@@ -46,7 +49,7 @@ const SignInPage = () => {
                             </div>
                             
                             <div className={styles.signInformDetails}>
-                                < a className={styles.LinkRedirect}>Create Account</a>
+                                < Link to= "/signup" className={styles.LinkRedirect}>Create Account</Link>
                             </div>
                             
                         </form>
@@ -56,4 +59,4 @@ const SignInPage = () => {
         </div>
     )
 }
-export default SignInPage;
+export default SignInPages;

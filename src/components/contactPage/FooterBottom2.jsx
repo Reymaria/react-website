@@ -3,9 +3,9 @@ import styles from "./FooterBottom2.module.css";
 import {FaFacebook, FaInstagram, FaLinkedinIn, FaTwitterSquare} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import ContactPage from "../../contactPage.js";
+import { Link } from "react-router-dom";
 
-
-const FooterBottom2 = () => {
+const LightFooterBottom = () => {
     return(
         <div className={styles.fcontainer}>
             <div className={styles.FooterContainer}>
@@ -21,10 +21,10 @@ const FooterBottom2 = () => {
                     </button> */}
                 </div>
                 <div className={styles.RedirectLinks}>
-                    <a href="/" className={styles.footerbottom2Link}>Home</a>
-                    <a href="/" className={styles.footerbottom2Link}>About</a>
-                    <a href="{ContactPage}" className={styles.footerbottom2Link}>Contact Us</a>
-                    <a href="/" className={styles.footerbottom2Link}>Sign Up</a>
+                    <Link to ="/" className={styles.footerbottom2Link}>Home</Link>
+                    <Link to="/about" className={styles.footerbottom2Link}>About</Link>
+                    <Link to="/contact" className={styles.footerbottom2Link}>Contact Us</Link>
+                    <Link to="/signup" className={styles.footerbottom2Link}>Sign Up</Link>
                 </div>
                 <div className={styles.ClosingTag}>
                 Copyright 2022 BookGeeks - All Rights Reserved -
@@ -34,4 +34,4 @@ const FooterBottom2 = () => {
     )
 }
 
-export default FooterBottom2;
+export default LightFooterBottom;

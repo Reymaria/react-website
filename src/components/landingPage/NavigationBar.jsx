@@ -1,5 +1,6 @@
 import React from "react";
 import {GiHamburgerMenu} from 'react-icons/gi'
+import { Link } from 'react-router-dom';
 
 
 import styles from "./NavigationBar.module.css";
@@ -12,12 +13,13 @@ const NavigationBar = () => {
             <img src="/images/Logo2.png"/>
           </div>
             <div className={styles.navbarButtons}>
-                <a href="/">Home</a>
-                <a href="/">About</a>
+                <Link to = '/'>Home</Link>
+                <Link to ="/about">About</Link>
                 {/* <button className={styles.NButtons}>
                   
                 </button> */}
-                <a href="/">Contact Us</a>
+                <Link to ='/contact'>Contact Us</Link>
+                <Link to ="/signup">Sign Up</Link>
 
                 <div className={styles.mobileNavButtons}>
                     <button className= {styles.hamburgerIcon}>

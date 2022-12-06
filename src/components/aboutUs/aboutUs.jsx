@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./aboutUs.module.css";
 
-const AboutUsPage = () => {
-    return (
+const AUsPage = () => {
+    return ( 
         <div className={styles.acontainer}>
             <div className={styles.aboutcontainer}>
                 <div className={styles.aboutbox}>
@@ -11,8 +11,7 @@ const AboutUsPage = () => {
                             We are the students in charge of ensuring
                              that the other university students have everything
                               they need to learn and explore topics of interest.
-                               In the library, we provide safe and secure data
-                                while performing daily tasks.
+                              In the library, we provide safe and secure data while performing daily tasks.
                         </div>
                         <div className={styles.whoTitle}>
                         WHO <br/> WE <br/> ARE
@@ -36,4 +35,4 @@ const AboutUsPage = () => {
     );
 };
 
-export default AboutUsPage;
+export default AUsPage;

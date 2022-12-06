@@ -1,18 +1,19 @@
-import NavBar from '../components/NavigationBar';
-import Hero1 from '../components/Hero1';
-import Hero2 from '../components/Hero2';
-import Footer from '../components/Footer';
+import DarkFooterBottom from "../components/landingPage/FooterBottom1";
+import FooterBottom1 from "../components/landingPage/FooterBottom1";
+import HeroPage from "../components/landingPage/HeroPage";
+import NavigationBar from "../components/landingPage/NavigationBar";
+import Part2 from "../components/landingPage/Part2";
 
 
 const LPage = () => {
     return (
         <div>
-            <NavBar/>
-            <Hero1/>
-            <Hero2/>
-            <Footer/>
+            <NavigationBar/>
+            <HeroPage/>
+            <Part2/>
+            <DarkFooterBottom/>
         </div>
-    )
-}
+    );
+};
 
 export default LPage;
