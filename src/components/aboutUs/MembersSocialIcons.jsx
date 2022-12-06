@@ -4,10 +4,10 @@ import {FaFacebook, FaInstagram, FaLinkedinIn, FaTwitterSquare} from 'react-icon
 const MembersSocialIcons = () => {
     return (
         <div className={styles.SocialIconsContainer}>
-            <FaFacebook size= '20px' />
-            <FaInstagram size='20px'/>
-            <FaLinkedinIn size='20px'/>
-            <FaTwitterSquare size='20px'/>
+            <FaFacebook size= '25px' />
+            <FaInstagram size='25px'/>
+            <FaLinkedinIn size='25px'/>
+            <FaTwitterSquare size='25px'/>
         </div>
     );
 };

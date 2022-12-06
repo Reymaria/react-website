@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=IM+Fell+English&family=Inder&family=Roboto+Slab&display=swap');
+
+.ATcontainer {
+    margin: 0;
+    overflow: hidden;
+    min-height: 100vh;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.aboutContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutHeadline{
+    font-family: 'Cutive Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 68px;
+}
+
+.MembersInfoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.MembersName{
+    font-family: 'Inder';
+    font-size: 1.45rem;
+}
+
+.ImageIcon{
+    width: 9rem;
+    height: auto;
+}
+
+.TeamContainer{
+    width: 45%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+}
+
+.firstRowTeam{
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.secondRowTeam{
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}

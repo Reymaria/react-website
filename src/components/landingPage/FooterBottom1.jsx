@@ -12,7 +12,7 @@ const DarkFooterBottom = () => {
                 <div className={styles.SocialIcons}>
                     <FaFacebook size="30px"/>
                     <FaInstagram size="30px"/>
-                    <FaLinkedinIn size="20px "/>
+                    <FaLinkedinIn size="30px "/>
                     <HiOutlineMail size="30px"/>
                     <FaTwitterSquare size="30px"/>
                     {/* I dont know how to put address in this icon!! */}
