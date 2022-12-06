@@ -1,0 +1,61 @@
+.fcontainer{
+    margin-left: -1%;
+    margin-right: -1%;
+    overflow: hidden;
+    font-family: 'Cutive Mono', monospace;
+    position: sticky;
+    background-color: white;
+    color: #001220;
+    height: 10rem;
+    
+}
+.FooterContainer{
+    display: flex;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1.3rem;
+    width: 100%;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SocialIcons {
+    display: flex;
+    gap: 4.5vh;
+    justify-content: center;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.RedirectLinks {
+    gap: 4vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.footerbottom2Link{
+    text-decoration: none;
+    color: #001220 !important;
+}
+
+a:hover{
+    color: #F67280;
+}
+
+.ClosingTag{
+    font-size: 0.98rem;
+}
+
+/* Bakit lahat sila nagsasabay maging pink? */
+/* .SocialIcons:hover{
+    color: #F67280 !important;
+} */
+
+/* @media will be Later */
+
+
