@@ -82,3 +82,45 @@
         margin-bottom: 20px;
     }
 }
+
+/* Tablet Size Width */
+
+/* On going change for this one! */
+@media screen and (min-width: 481px) and (max-width: 960px){
+    
+        .container2 {
+            background-color: #F67280;
+        } 
+        .part2Container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 60%;
+            
+        }
+        .part2sidePic{
+            /* height: 100px; */
+            width: 50vh;
+        }
+
+        .MainLine{
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+        /* .part2Container{
+            display: flex;
+            flex-direction: column;
+            height: 100%; */
+            /* padding-left: 3%;
+            padding-right: 10%;
+            padding-top: 0.54%; */
+            /* background-color: #FFEDED; */
+        /* } */
+        /* .part2sidePic{
+            width: 50%;
+        }
+        .MainLine{
+            font-size: 2rem;
+            margin-bottom: 5px;
+        } */
+    }
