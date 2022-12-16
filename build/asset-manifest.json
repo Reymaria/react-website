@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe593dac.css",
+    "main.js": "/static/js/main.045c9c06.js",
+    "static/js/787.e403dcb9.chunk.js": "/static/js/787.e403dcb9.chunk.js",
+    "static/media/SUIPicture.png": "/static/media/SUIPicture.deea938f09b0afcc9395.png",
+    "static/media/Torres Photo.png": "/static/media/Torres Photo.393ce5d7b15c665430f8.png",
+    "static/media/Visperas Photo.png": "/static/media/Visperas Photo.c6cbe53ee5816ae843fe.png",
+    "static/media/Gonzales Photo 1.png": "/static/media/Gonzales Photo 1.d42c356f0d0a68a1b181.png",
+    "static/media/Cortes Photo.png": "/static/media/Cortes Photo.da7fd91e6dc7de6c1d03.png",
+    "static/media/Rosales Photo.png": "/static/media/Rosales Photo.8ba9085421794fe911b7.png",
+    "static/media/sideImage.png": "/static/media/sideImage.406e66013adeb4b6f21d.png",
+    "static/media/Sandagan Photo.png": "/static/media/Sandagan Photo.4d14fc0bd194f2d421e0.png",
+    "static/media/tuplogo.png": "/static/media/tuplogo.1db880b08ce8d4f7be69.png",
+    "static/media/Logo.png": "/static/media/Logo.d6de8af7735090118083.png",
+    "static/media/wave.svg": "/static/media/wave.654fed9a80bc260a07141098377205b8.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.fe593dac.css.map": "/static/css/main.fe593dac.css.map",
+    "main.045c9c06.js.map": "/static/js/main.045c9c06.js.map",
+    "787.e403dcb9.chunk.js.map": "/static/js/787.e403dcb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe593dac.css",
+    "static/js/main.045c9c06.js"
+  ]
+}

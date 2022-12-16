@@ -13,13 +13,13 @@ const NavigationBar = () => {
             <img src="/images/Logo2.png"/>
           </div>
             <div className={styles.navbarButtons}>
-                <Link to = '/'>Home</Link>
-                <Link to ="/about">About</Link>
+                <Link to = '/' className={styles.navbarLinks} >Home</Link>
+                <Link to ="/about" className={styles.navbarLinks} >About</Link>
                 {/* <button className={styles.NButtons}>
                   
                 </button> */}
-                <Link to ='/contact'>Contact Us</Link>
-                <Link to ="/signup">Sign Up</Link>
+                <Link to ='/contact' className={styles.navbarLinks} >Contact Us</Link>
+                <Link to ="/signup" className={styles.navbarLinks} >Sign Up</Link>
 
                 <div className={styles.mobileNavButtons}>
                     <button className= {styles.hamburgerIcon}>

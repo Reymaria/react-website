@@ -9,24 +9,25 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     margin-right: 6rem;
 }
 
 .sideImage{
     position: inherit;
-    width: 80%;
-    /* overflow: hidden; */
+    width: 50%;
     height: 100vh;
+    overflow: hidden;
+
 }
 
 .sidePicImage{
-    position: relative;
-    width: 98vh;
-    height: auto;
+    position: absolute;
+    width: 90vh;
+    height: 129vh;
     overflow: hidden;
-    /* left: -53px; */
-    top: -18em;
+    left: -53px;
+    top: -12em;
 }
 .rightSideElements{
     position: relative;
@@ -36,8 +37,7 @@
     justify-content: space-evenly;
     width: 100vh;
     height: 95vh;
-
-
+    /* background-color: #F67280; */
 }
 
 
@@ -47,6 +47,8 @@
     flex-direction: row;
     justify-content: space-around;
     width: 100vh;
+    margin-top: 4px;
+    /* background-color: #FFEDED; */
 }
 
 .sideNavbar{
@@ -57,6 +59,20 @@
     text-decoration: none !important;
 }
 
+.sideNavbar:hover{
+    color: #F67280 !important;
+}
+
+.LogoHeader{
+    width: 60vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LogoPicHeader{
+    width: 40vh;
+}
 .sideNavbar:hover{
     color: #F67280 !important;
 }
@@ -74,18 +90,6 @@
     /* paddim-top: 4rem; */
 }
 
-
-/* .LogoHeader{
-    width: 60vh;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-.LogoPicHeader{
-    width: 40vh;
-    margin-bottom: 10px;
-}
 .signInFormContainer{
     display: flex;
     flex-direction: column;
@@ -121,10 +125,15 @@
     border-bottom: 1px solid #000000 !important;
     border-radius: 10px;
     outline: none;
-    height: 1.75rem;
+    height: 1.5rem;
+    width: 58vh;
+    font-family: 'Roboto Slabs';
+    padding-left: 10px;
+    font-size: 15px;
+    /* height: 1.75rem;
     width: 60vh;
     font-family: 'Roboto Slabs';
-    font-size: 15px;
+    font-size: 15px; */
 }
 
 .signInFormInputs:focus {
@@ -135,18 +144,16 @@
     #35477d9f;
 }
 .signInFormSubmit{
-    font-family: 'IM FELL English';
     background: #FFEDED;
     border-radius: 10px;
-    width: 10rem;
-    height: 1.95rem;
+    width: 25vh;
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 8px;
     cursor: pointer !important;
-    font-size: 1.25rem ;
+    font-size: 18px ;
     color: #F67280;
     border: 1px solid #F67280;
 }
@@ -160,4 +167,49 @@
 
 .LinkRedirect:hover{
     color: #F67280 !important;
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+    .rightSideElements{
+        height: 100vh;
+    }
+    
+    
+    .rightSideNavbar{
+        margin-top: 40px;
+        /* background-color: #FFEDED; */
+    }
+    
+    .sideNavbar{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .signInFormContainer{
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+    }
+    .signInFormInputs{
+        height: 2.5rem;
+        width: 60vh;
+        font-family: 'Roboto Slabs';
+        font-size: 19px;
+    }
+    .signInFormLabels{
+        width: 60vh;
+        /* background-color: #F67280; */
+        font-size: 1.55rem;
+    }
+    .signInFormSubmit{
+        background: #FFEDED;
+        border-radius: 10px;
+        width: 25vh;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1.55rem;
+    }
+    .LinkRedirect{
+        font-size: 1.55rem;
+    }
 }

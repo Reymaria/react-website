@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=IM+Fell+English&family=Roboto+Slab&display=swap');
 
 .container1 {
-    margin: -1%;
+    /* margin: -1%; */
     overflow: hidden;
     font-family: 'Cutive Mono', monospace;
     background-color: #001220;
@@ -55,6 +55,7 @@ h1{
     color: black !important;
     background-color: #F67280 !important;
     font-weight: bolder;
+
 }
 
 .button1Text{
@@ -86,3 +87,33 @@ h1{
 
 
 /* @media will be next! */
+
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+    .container1 {
+        height: 100%;
+        background-color: #001220;
+        /* background-color: white; */
+    }
+    .heroContainer{
+        height: 60vh;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+    }
+    .heroContainerUp{
+        gap: 5%;
+        /* background-color: #FFEDED; */
+        padding-bottom: 50px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    h1{
+        font-size: 6.75rem;
+        line-height: 5.7rem;
+        width: 87%;
+        margin-bottom: 2%;
+    }
+    .tupLogoPic{
+        width: 25rem;
+    }
+}

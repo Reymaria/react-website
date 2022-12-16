@@ -10,13 +10,14 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     margin-right: 6rem;
 }
 
 .sideImage{
     position: inherit;
     width: 50%;
+    height: 100vh;
     overflow: hidden;
 
 }
@@ -24,7 +25,7 @@
 .sidePicImage{
     position: absolute;
     width: 90vh;
-    height: auto;
+    height: 129vh;
     overflow: hidden;
     left: -53px;
     top: -12em;
@@ -37,8 +38,6 @@
     justify-content: space-evenly;
     width: 100vh;
     height: 95vh;
-
-
 }
 
 
@@ -48,6 +47,8 @@
     flex-direction: row;
     justify-content: space-around;
     width: 100vh;
+    margin-top: 20px;
+    /* background-color: #FFEDED; */
 }
 
 .sideNavbar{
@@ -77,9 +78,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-
     width: 100vh;
     height: 100vh;
+    padding-top: 30px;
     /* paddim-top: 4rem; */
 }
 
@@ -91,8 +92,11 @@
     font-family: 'IM FELL English';
     height: 76vh;
     width: 60vh;
+    gap: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
+    /* background-color: #FFEDED; */
+
 }
 
 
@@ -108,6 +112,7 @@
     width: 60vh;
     margin-top: 10px;
     margin-bottom: 3px;
+    font-size: 1rem;
 }
 .signUpFormInputs{
     border-top: none;
@@ -117,8 +122,9 @@
     border-radius: 10px;
     outline: none;
     height: 1.5rem;
-    width: 60vh;
+    width: 58vh;
     font-family: 'Roboto Slabs';
+    padding-left: 10px;
     font-size: 15px;
 }
 
@@ -139,7 +145,7 @@
     margin-top: 15px;
     margin-bottom: 8px;
     cursor: pointer !important;
-    font-size: 15px ;
+    font-size: 17px ;
     color: #F67280;
     border: 1px solid #F67280;
 }
@@ -148,8 +154,57 @@
     color: #6D1113 !important;
     cursor: pointer;
     margin-top: 10px;
+    font-size: 1.1rem;
 }
 
 .LinkRedirect:hover{
     color: #F67280 !important;
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+    .rightSideElements{
+        height: 100vh;
+    }
+    
+    
+    .rightSideNavbar{
+        margin-top: 40px;
+        /* background-color: #FFEDED; */
+    }
+    
+    .sideNavbar{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .signUpFormContainer{
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+    }
+    .signUpFormInputs{
+        height: 2.5rem;
+        width: 60vh;
+        font-family: 'Roboto Slabs';
+        font-size: 19px;
+    }
+    .signUpFormLabels{
+        width: 60vh;
+        /* background-color: #F67280; */
+        font-size: 1.55rem;
+    }
+    .signUpFormSubmit{
+        background: #FFEDED;
+        border-radius: 10px;
+        width: 25vh;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 8px;
+        font-size: 1.55rem;
+    }
+    .LinkRedirect{
+        font-size: 1.55rem;
+    }
 }
